@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+}
+body{
+    background-color: gray;
+}
+form {
+    text-transform: capitalize;
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+    margin: 40px auto;
+    background-color: white;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%); */
+}
+h1{
+    text-align: center;
+    padding: 20px 0;
+    color: indigo;
+    border-bottom:2px solid red ;
+}
+form div label{
+    display: block;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 20px;
+}
+form div input{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid green;
+    font-size: 16px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-container button{
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin: 40px 0 10px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+.btn-container button:first-of-type{
+    background-color: green;
+    color: white;
+}
+table{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+table tr th ,table tr td {
+    width: 14.28%;
+    padding: 10px;
+}
+table tr th{
+    border: 3px solid rgb(223, 42, 72);
+}
+table tr td{
+    text-align: center;
+    border: 1px solid gray;
+}
+.fa-edit{
+    color: chartreuse;
+    cursor: pointer;
+}
+.fa-trash-alt{
+    color: rgb(223, 42, 72);
+    cursor: pointer;
+}
